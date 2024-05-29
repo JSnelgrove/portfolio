@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+.list{
+    text-align:left
+}
+
 nav {
     background-color: #4caaad;
     padding: 10px 0;
@@ -40,10 +44,6 @@ nav ul li a {
     background-color: #ccc;
     border-radius: 50%;
     margin: 20px auto;
-}
-
-h1, h2 {
-    color: #333;
 }
 
 p {
