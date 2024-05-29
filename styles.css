@@ -8,6 +8,23 @@ body {
 .list{
     text-align:left;
 }
+.two-column-list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-evenly;
+}
+.two-column-list li{
+    text-align: left;
+}
+.horizontal-list{
+    margin: 0;
+    padding: 0;
+    align-items:center ;
+}
+.horizontal-list li{
+    display: inline;
+    margin-right: 20px;
+}
 
 nav {
     background-color: #4caaad;
@@ -36,6 +53,13 @@ nav ul li a {
     margin: 20px auto;
     width: 80%;
     max-width: 800px;
+}
+.narrow-container {
+    margin: 20px auto;
+    width: 20%;
+    max-width: 800px;
+
+    
 }
 
 .profile-pic {
