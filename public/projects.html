@@ -23,14 +23,33 @@
             <br>
             <br>
             <h1>Projects</h1>
-            <h3><a href ="https://github.com/sami-hssn/yatzy">Tic Tac Toe (CSI 3140 Assignment)</a></h3>
+            <h3><a href ="https://github.com/sami-hssn/yatzy">Tic Tac Toe <i>(CSI 3140 Assignment)</i></a></h3>
             <p>
                 <div class="list">
                     <li>Implemented a 3x3 Tic Tac Toe game that can be played on the same device. </li>
                     <li>Designed a creative interface mimicking a paper game of Tic Tac Toe.</li>
-                    <li>Developed using HTML, CSS, and JavaScript.</li>
+                    <li>Stored information about each game, game session, and all-time best scores in PostgreSQL database.</li>
+                    <li>Developed using HTML, CSS, and JavaScript, PHP, and PostgreSQL.</li>
+                    
+                    <br>
+                    <img src="./assets/ttt1.jpg" class="center"> 
+                    <img src="./assets/ttt2.jpg" class="center"> 
+
+                    <h3>Prerequisites</h3>
+                        <li>Confirm PHP is installed: php --version</li>
+                        <li>Confirm PostgreSQL is installed: psql --version</li>
+
+                    <h3>Initialize Database</h3>
+                        <li>run: psql -c CREATE DATABASE tictactoe</li>
+                        <li>run: CREATE TABLE leaderboard(name varchar(50), score int);</li>
+                    
+                    <h3>Starting the Game</h3>
+                        <li>Clone this repo</li>
+                        <li>run 'php -S localhost:8000'</li>
+                        <li>Open the browser and go to this site http://localhost:8000/index.html</li>
+                    
                 </div>
-            </p>
+            </p><br>
             <h3>Chow Now - Android Application <i>(SEG 2105 Final Project)</i> </h3>
             <p>
                 <div class = "list">

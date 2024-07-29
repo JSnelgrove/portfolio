@@ -81,7 +81,15 @@ p {
 section {
     padding: 20px 0;
 }
+
 h4{
     color: grey;
     font-size: 14px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 75px;
+  }
